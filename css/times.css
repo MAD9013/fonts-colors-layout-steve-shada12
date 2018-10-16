@@ -118,7 +118,7 @@ p{
 
 .story.lead-story:hover{
     
-    color: hsl(243, 67%, 75%);
+    color: hsl(243, 100%, 37%);
     font-weight: bold;
     
 }
@@ -129,7 +129,6 @@ h1.story-title{
     font-size: 1.602em;
     margin-top: 0;
     line-height: 1.2;
-    font-weight: inherit;
     padding: 1rem 0.5rem 0rem 0.5rem;
     
 }
