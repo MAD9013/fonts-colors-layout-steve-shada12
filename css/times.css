@@ -13,7 +13,10 @@ html{
     font-size: 16px;
     line-height: 1.6;
     /*font-family: font stack required for body text */
-      font-family:  sans-serif, serif ,'Roboto';
+    font-family: Roboto, helvetica, sans-serif;
+   /* font-family: 'Karla','rubik',sans-serif,;*/
+    /*font-family: sans-serif,'Roboto',  serif;*/
+      font-family:  'Roboto',helvetica, sans-serif;
     
     background-color: hsl(0, 100%, 100%);
 }
@@ -21,7 +24,9 @@ html{
 
 h1, h2, h3, h4{
     /*font-family: font stack required for headings */
-    font-family: serif, sans-serif, "Times New Roman";
+    font-family: 'Roboto', Georgia, serif;
+   /* font-family: serif,"Times New Roman", sans-serif;*/
+    /* font-family: 'Karla', sans-serif;*/
    
 }
 p{
@@ -47,25 +52,34 @@ p{
 }
 .subnav a{
     
+    font-family: sans-serif,'Roboto',  serif;
     margin-left: 0.7rem;
-    background-color: hsl(204, 68%, 74%);
+    /*background-color: hsl(204, 68%, 74%);*/
     padding: 9px;
 }
 
-.mainnav{
+.subnav a:hover{
+    color: hsl(0,0%,1%);
+    
+}
 
+.mainnav{
+list-style: none;
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    
     /*justify-content: space-around;*/
     background-color:hsl(203, 32%, 84%);
-    height: 40px;
+   /*height: 40px;*/
    
 }
 .mainnav a{
 
-   display:table-row;
+    font-family: sans-serif,'Roboto',  serif;
+   /*display:table-row;
    width: 1500px;
-   margin-top: auto;
+   margin-top: auto;*/
   /*margin-right: auto;*/
     
 }
@@ -80,49 +94,69 @@ p{
     display: block;
     height: 200px;
     padding-left: 250px;
-    
 }
 .masthead h1{
     
+    font-family: sans-serif,'Roboto',  serif;
     text-align:left;
     background-color: hsl(243, 67%, 75%);
+    
    
 }
+.container{
+    
+    line-height: 1.45;     
+}
 .content{
-    
-     padding: 1rem;
-    
+      
+     padding: 1em;
 }
 .content .story{
-    
+
+     font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 1.3rem; 
+    font-family: sans-serif,'Roboto',  serif;
 }
+
+
 .story.lead-story{
     
+    font-weight: 400;
+    line-height: 1.45;
+    
 }
+
 h1.story-title{
     
- /* padding-top: 40px;*/
- padding: 1rem 0.5rem 0rem 0.5rem;
+    font-family: serif,'Roboto', sans-serif;
+    font-size: 1.602em;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: inherit;
+    padding: 1rem 0.5rem 0rem 0.5rem;
     
 }
 .story img{
     
     width:600px;
     height:350px;
-     float: left;
+    float: left;
     margin-right: 3rem;
     margin-bottom: 1rem;
-   
-    /*overflow: auto;*/  
-    
+
 }
 
 .story p{
-    padding: 0.40srem 0.5rem;
+    
+    padding: 0.50rem 0.5rem;
+   /* margin-bottom: 1.3em;*/
+    
     
 }
 .story blockquote{
      padding-left: 0.5rem;
+    font-weight: 600;
     quotes: "\201E" "\201D";
 }
 .story blockquote::before{
@@ -132,6 +166,7 @@ h1.story-title{
     content: close-quote;
 }
 .story p.byline{
+   
    
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-bottom: 1px dotted black;
@@ -153,7 +188,8 @@ p.byline span.pub{
 }
 .foot p{
     
-    font-size: 0.8em;
+    font-size: 0.702em;
     text-align: center;
+    font-family: sans-serif,'Roboto',  serif;
    
 }
