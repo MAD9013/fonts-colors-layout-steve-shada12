@@ -48,7 +48,6 @@ p{
     
     font-family: sans-serif,'Roboto',  serif;
     margin-left: 0.7rem;
-    /*background-color: hsl(204, 68%, 74%);*/
     padding: 9px;
 }
 
@@ -62,19 +61,14 @@ list-style: none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    
-    /*justify-content: space-around;*/
     background-color:hsl(203, 32%, 84%);
-   /*height: 40px;*/
+   
    
 }
 .mainnav a{
 
     font-family: sans-serif,'Roboto',  serif;
-   /*display:table-row;
-   width: 1500px;
-   margin-top: auto;*/
-  /*margin-right: auto;*/
+  
     
 }
 
@@ -91,7 +85,7 @@ list-style: none;
 }
 .masthead h1{
     
-    font-family: sans-serif,'Roboto',  serif;
+    font-family: serif,'Roboto', sans-serif;
     text-align:left;
     background-color: hsl(243, 67%, 75%);
     
