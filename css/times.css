@@ -13,20 +13,14 @@ html{
     font-size: 16px;
     line-height: 1.6;
     /*font-family: font stack required for body text */
-    font-family: Roboto, helvetica, sans-serif;
-   /* font-family: 'Karla','rubik',sans-serif,;*/
-    /*font-family: sans-serif,'Roboto',  serif;*/
       font-family:  'Roboto',helvetica, sans-serif;
-    
-    background-color: hsl(0, 100%, 100%);
+      background-color: hsl(0, 100%, 100%);
 }
 
 
 h1, h2, h3, h4{
     /*font-family: font stack required for headings */
     font-family: 'Roboto', Georgia, serif;
-   /* font-family: serif,"Times New Roman", sans-serif;*/
-    /* font-family: 'Karla', sans-serif;*/
    
 }
 p{
