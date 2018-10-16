@@ -155,6 +155,7 @@ h1.story-title{
     
 }
 .story blockquote{
+    
      padding-left: 0.5rem;
     font-weight: 600;
     quotes: "\201E" "\201D";
@@ -167,14 +168,9 @@ h1.story-title{
 }
 .story p.byline{
    
-   
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     border-bottom: 1px dotted black;
     width:25vw;
-    
-      
-
-  
     
 }
 p.byline span.author{
